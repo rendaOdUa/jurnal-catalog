@@ -1,3 +1,15 @@
+корневой .htaccess настроен на работу из корневой локальной директории www.
+
+common/config/main-local.php:
+'dsn' => 'mysql:host=localhost;dbname=netpeaktest', username' => 'root', password' => '',
+
+вместо миграции, просто импортируйте netpeaktest.sql(в корне сайта) в вашу бд.
+
+Редактирование таблиц:
+http://localhost/admin
+login - Admin
+pass - 123456
+
 Yii 2 Advanced Project Template
 ===============================
 
