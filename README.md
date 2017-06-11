@@ -1,9 +1,14 @@
-корневой .htaccess настроен на работу из корневой локальной директории www.
+Тест для нетпика.
+Каталог журналов с возможностью редактирования списков авторов и самих изданий.
+Сортировка по дате и авторам.
+Пагинация.
 
-common/config/main-local.php:
-'dsn' => 'mysql:host=localhost;dbname=netpeaktest', username' => 'root', password' => '',
+.htaccess настроен на работу из корневой локальной директории www.
 
-вместо миграции, просто импортируйте netpeaktest.sql(в корне сайта) в вашу бд.
+настройка коннекта к бд-
+www/common/config/main-local.php.
+
+дамп бд - netpeaktest.sql(в корне сайта).
 
 Редактирование таблиц:
 http://localhost/admin
